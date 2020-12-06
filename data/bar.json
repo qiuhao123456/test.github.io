@@ -1,0 +1,4 @@
+{
+    "xAxis":["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "week":[9,11,13,10,8,11,5]
+}

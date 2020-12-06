@@ -1,0 +1,160 @@
+#all{
+    height: 1666px;
+    width: 1440px;
+    margin:auto;
+    background-color: rgb(253, 251, 251);
+    opacity: 0.8;
+}
+
+#up{
+    height: 100px;
+    width: 1440px;
+    position: relative;
+    background-color: #ffffff;
+    float: left;
+}
+
+#middle{		
+    height:1276px;
+    width: 1440px; 
+    float: left;
+    position: relative;
+}
+
+.a{
+    width: 105px;
+    height: 30px;
+    background-color: #f92525;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: 30%;
+}
+
+.logo{
+    left: 10%;
+    font-family: MyriadPro-Regular;
+}
+
+.logout{
+    font-family: Raleway-Bold;
+    right: 10%;
+}
+
+.b{
+    width: 18px;
+    height: 18px; 
+    position: absolute;
+    top: 42%;   
+}
+
+.settings{
+    left: 75%;
+    background: url(../img/1.jpg);
+    background-size: cover;
+}
+
+.bell {
+    left: 78%;
+    background: url(../img/2.jpg);
+    background-size: cover;
+}
+
+.middle0{
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+}
+
+.middle0_1{
+	font-family: Raleway-Regular;
+	font-size: 30px;
+    position: absolute;
+    top: 3%;
+    letter-spacing: 0px;
+    text-decoration: none;
+	color: #262b2e;
+}
+
+.middle0_2{
+    font-family: OpenSans;
+	font-size: 15px;
+    position: absolute;
+    top: 6%;
+    text-decoration: none; /*去掉超链接下划线*/
+    color: #262b2e;
+	opacity: 0.7;
+}
+
+.middle0_3{
+    width: 469px;
+	height: 13px;
+	font-family: OpenSans-Bold;
+	font-size: 13px;
+    position: absolute;
+    left: 57%;
+    top: 6%;
+    color: #262b2e;
+}
+
+.middle0_3_1{
+    font-weight: bold;
+    text-decoration: none;
+    margin: 9px;
+}
+
+.middle0_3 li a{
+    color: black;
+}
+
+.middle0_3_1:hover{
+    border-bottom: 2px solid rgb(167, 160, 160);
+}
+
+.middle0_3_2{
+    font-weight: bold;
+    text-decoration: none;
+    margin: 9px;
+    border-bottom: 2px solid rgb(167, 160, 160);
+}
+
+.middle3{
+    width: 1150px;
+    height: 350px;
+    float: left;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    background-color: white;
+}
+
+.middle4{
+    width: 560px;
+    height: 377px;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    background-color: white;
+}
+
+.middle5{
+    width: 560px;
+    height: 377px;
+    position: absolute;
+    right: 10%;
+    top: 65%;
+    background-color: white;
+}
+
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+li
+{
+display:inline;
+}

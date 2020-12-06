@@ -1,0 +1,87 @@
+/*轮播图*/
+.middle1{
+    width: 560px;
+    height: 288px;
+    float: left;
+    position: absolute;
+    left: 10%;
+    background-color: white;
+}
+
+.content{
+    width: 560px;
+    height: 288px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider-img{
+    width: 540px;
+    height: 268px;
+    margin: 10px auto;
+}
+
+.slider-img img{     
+    width: 540px;
+    height: 268px;
+}
+
+.left{
+    width: 25px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: -160px;
+    float: left;
+    position: relative;
+    background-color: black;
+    
+}
+.left img{
+    width: 25px;
+    height: 30px;
+}
+
+.right{
+    width: 25px;
+    height: 30px;
+    margin-left: 525px;
+    margin-top: -160px;
+    float: left;
+    position: relative;
+    background-color: black;
+    
+}
+
+.right img{
+    width: 25px;
+    height: 30px;
+}
+
+.dotul{
+    height: 20px;
+    width: 200px;
+    position: absolute;
+    left: 220px;
+    top: 250px;
+    /*垂直翻转div*/
+    -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+    transform:scaleY(-1);
+    /*兼容IE*/
+    filter:FlipV;
+}
+
+.dotul lii{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(247, 248, 248);
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.active{
+    height: 15px!important;
+}

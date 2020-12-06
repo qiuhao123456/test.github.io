@@ -1,0 +1,113 @@
+.middle2{
+    width: 560px;
+    height: 288px;
+    float: left;
+    position: absolute;
+    right: 10%;
+    overflow:hidden; /*超出div内容隐藏*/
+    background-color: white;
+}
+
+.middle2up{
+    width: 560px;
+    height: 96px;
+    border-bottom: 2px solid rgb(148, 144, 144);
+}
+
+.middle2up_1{
+    position: absolute;
+    left: 9%;
+    top: 15%;
+    font-family: OpenSans;
+	font-size: 18px;
+    text-decoration: none;
+	color: #262b2e;
+}
+
+.middle2bottom1{
+    width: 535px;
+    height: 150px;
+    position: absolute;
+    left: 9%;
+    overflow: auto; /*div超出出现滚动条*/
+    overflow-y: auto;
+}
+
+.title{
+    width: 540px;
+    height: 50px;
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    line-height: 40px;
+	color: #262b2e;
+}
+
+.title1{
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.title2{
+    width: 300px; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.title3{
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.button {
+    width: 65px;
+    height: 30px;
+    background-color: #5dd054;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn1{
+    width: 95px;
+    height: 40px;
+    border-radius: 2px;
+	border: solid 2px #262b2e;
+    opacity: 0.1;
+    position: absolute;
+    left: 430px;
+    top: 30px;
+    cursor: pointer; /*添加鼠标样式*/
+}
+
+.btn2{
+    width: 95px;
+    height: 40px;
+    border: none;
+    background-color: red;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.white_content { 
+    display: none; 
+    position: absolute; 
+    top: 20%; 
+    left: 30%; 
+    width: 560px; 
+    height: 500px; 
+    padding: 20px; 
+    border: 10px solid orange; 
+    background-color: white; 
+    z-index:1002; 
+    overflow: auto; 
+}

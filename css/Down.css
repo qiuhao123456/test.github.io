@@ -1,0 +1,55 @@
+.down-up{
+    width: 1440px;
+    height: 253px;
+    background-color: #202124;
+    float: left;
+}
+
+.down-down{
+    width: 1440px;
+	height: 37px;
+    background-color: #1c1d20;
+    float: left;
+}
+
+.Logo{
+    width: 105px;
+    height: 30px;
+    background-color: #f92525;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    position: absolute;
+    margin: 80px 150px;
+}
+
+.down1{
+    width: 1000px;
+    height: 120px;
+    position: absolute;
+    margin: 80px 330px;
+}
+
+.down1 ul{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.down1 ul li{
+    float: left;
+    height: 30px;
+    width: 200px;
+    font-size: 13px;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.down1 ul li a{
+    color: white;
+}
